@@ -4,7 +4,7 @@
 - Your browser version should be up to date for better experience
 ## Features
 - Home page
-- Website Design page
+- Website Design
 ## Tech/framework used
 - Html
 - Css
