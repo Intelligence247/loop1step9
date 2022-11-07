@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+*::-webkit-scrollbar {
+    width: 6px;
+    background-color: white;
+}
+
+
+*::-webkit-scrollbar-thumb {
+    background-color: #6f6f6f;
+    border-radius: 30px;
+}
+
 body {
     background-color: #f4c66a;
 }
@@ -22,7 +33,12 @@ section.section1 {
     height: 25rem;
     background-color: #f0f0f0;
     padding: 2rem;
-    overflow-y: scroll;
+    overflow-y: hidden;
+}
+
+section.section1:hover,
+.section2:hover {
+    overflow-y: auto;
 }
 
 header {
@@ -47,12 +63,20 @@ header {
     cursor: pointer;
 }
 
+.card2 {
+    border: 1.8px solid blue;
+}
+
+.cards:hover {
+    border: 1.8px solid blue;
+}
+
 .section2 {
     width: 30rem;
     background-color: #fff;
     height: 25rem;
     padding: 2rem;
-    overflow-y: scroll;
+    overflow-y: hidden;
 }
 
 .header {
